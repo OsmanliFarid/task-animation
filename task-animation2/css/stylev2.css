@@ -1,0 +1,39 @@
+.loader {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid;
+    border-color: yellow cadetblue chartreuse aquamarine;
+    border-radius: 50%;
+    animation: loader 2s linear infinite;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loader-text {
+    font-weight: bold;
+    animation: textFreeze 2s linear infinite;
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes textFreeze {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
