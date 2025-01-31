@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkgrey;
+    background-color: rgb(57, 57, 57);
 }
 .box{
     background-color: black;
@@ -18,7 +18,8 @@ body{
     justify-content: center;
     align-items: center;
     color: #fff;
- 
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px 150px rgba(255, 254, 254, 0.5);
 }
 .h1-ext{
     font-size: 12px;
